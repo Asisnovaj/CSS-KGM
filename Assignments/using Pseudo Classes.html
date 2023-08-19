@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+
+</head>
+<style>
+    body {
+        font-size: 50px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    li:nth-child(odd) {
+        background-color: blue;
+    }
+
+    li:nth-child(even) {
+        background-color: brown;
+    }
+
+    li:first-child {
+        background-color: aqua;
+    }
+
+    a:visited {
+        color: bisque;
+    }
+
+    a:active {
+        color: antiquewhite;
+
+    }
+
+    a:hover {
+        color: yellow;
+    }
+</style>
+
+<body>
+    <section>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo"> Cristiano ronaldo</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Lionel_Messi"> messi</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Neymar">neymar</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Robert_Lewandowski"> lewandowski</a> </li>
+            <li><a href="https://en.wikipedia.org/wiki/Pel%C3%A9">pele</a> </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
