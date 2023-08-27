@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("data:image/jpeg;base64,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");
+        }
+
+        h1 {
+            text-align: center;
+            color: whitesmoke;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 1000px;
+            height: 300px;
+            text-align: center;
+            margin-top: 4%;
+            margin-left: 15%;
+            font-size: large;
+        }
+
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+
+        button {
+            color: blue;
+            width: 100px;
+        }
+
+        #skyblue {
+            background-color: rgb(148, 95, 133);
+        }
+
+        #yellow {
+            background-color: rgb(103, 98, 86);
+        }
+
+        #grenn {
+            background-color: hotpink;
+        }
+
+        #brown {
+            background-color: aqua;
+        }
+
+        #white {
+            background-color: black;
+        }
+
+        #pink {
+            background-color: beige;
+        }
+
+        #lightblue {
+            background-color: brown;
+        }
+
+        .child:hover {
+            color: rgb(118, 4, 4);
+        }
+    </style>
+    </head>
+
+    <body>
+        <div>
+            <h1>Table #09</h1>
+            <table border="1px">
+                <tr>
+                    <th>Invoice</th>
+                    <th>Customer</th>
+                    <th>Ship</th>
+                    <th>price</th>
+                    <th>Purchased Price</th>
+                    <th>Status</th>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="skyblue">Program</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="yellow">Open</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="green">On hold</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="white">Program</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="pink">On hold</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="brown">Open</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="red">Open</button></td>
+                </tr>
+                <tr class="child">
+                    <td>1001</td>
+                    <td>Mark otto</td>
+                    <td>Japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button id="lightblue">Program</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+
+</html>
